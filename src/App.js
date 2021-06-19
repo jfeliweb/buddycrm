@@ -1,25 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react'
+import { HashRouter as Router, Route, Switch } from 'react-router-dom'
+import Header from './components/layout/Header'
+import About from './components/pages/About'
+import Contacts from './components/contacts/Contacts'
+import AddContact from './components/contacts/AddContact'
+import EditContact from './components/contacts/EditContact'
+import NotFound from './components/pages/NotFound'
+import {Provider} from './context'
+import 'bulma'
+import './App.sass';
+import { Container, Section } from 'react-bulma-components';
 
-function App() {
+class App extends Component {
+render() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Provider>
+      <Router>
+        <div className="App">
+        <Header branding="Buddy CRM" />
+        <Section size="medium">
+          <Container>
+            <Switch>
+              <Route exact path="/" component={Contacts} />
+              <Route exact path="/contact/add" component={AddContact} />
+              <Route exact path="/contact/edit/:id" component={EditContact} />
+              <Route exact path="/about" component={About} />
+              <Route component={NotFound} />
+            </Switch>
+          </Container>
+        </Section>
+      </div>
+      </Router>
+    </Provider>
   );
+}
 }
 
 export default App;
