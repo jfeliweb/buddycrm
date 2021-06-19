@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/buddycrm/static/css/main.038c930e.chunk.css",
+    "main.js": "/buddycrm/static/js/main.d1cbb388.chunk.js",
+    "main.js.map": "/buddycrm/static/js/main.d1cbb388.chunk.js.map",
+    "runtime-main.js": "/buddycrm/static/js/runtime-main.7a4aeaee.js",
+    "runtime-main.js.map": "/buddycrm/static/js/runtime-main.7a4aeaee.js.map",
+    "static/css/2.e372e80d.chunk.css": "/buddycrm/static/css/2.e372e80d.chunk.css",
+    "static/js/2.c08cc100.chunk.js": "/buddycrm/static/js/2.c08cc100.chunk.js",
+    "static/js/2.c08cc100.chunk.js.map": "/buddycrm/static/js/2.c08cc100.chunk.js.map",
+    "static/js/3.377f46b3.chunk.js": "/buddycrm/static/js/3.377f46b3.chunk.js",
+    "static/js/3.377f46b3.chunk.js.map": "/buddycrm/static/js/3.377f46b3.chunk.js.map",
+    "index.html": "/buddycrm/index.html",
+    "static/css/2.e372e80d.chunk.css.map": "/buddycrm/static/css/2.e372e80d.chunk.css.map",
+    "static/css/main.038c930e.chunk.css.map": "/buddycrm/static/css/main.038c930e.chunk.css.map",
+    "static/js/2.c08cc100.chunk.js.LICENSE.txt": "/buddycrm/static/js/2.c08cc100.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7a4aeaee.js",
+    "static/css/2.e372e80d.chunk.css",
+    "static/js/2.c08cc100.chunk.js",
+    "static/css/main.038c930e.chunk.css",
+    "static/js/main.d1cbb388.chunk.js"
+  ]
+}
