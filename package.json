@@ -2,6 +2,7 @@
   "name": "buddycrm",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://jfeliweb.github.io/buddycrm",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
@@ -9,6 +10,7 @@
     "axios": "^0.21.1",
     "bulma": "^0.9.2",
     "classnames": "^2.3.1",
+    "gh-pages": "^3.2.2",
     "node-sass": "^6.0.0",
     "react": "^17.0.2",
     "react-bulma-components": "^4.0.7",
@@ -19,6 +21,7 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
+    "deploy": "yarn build && gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
